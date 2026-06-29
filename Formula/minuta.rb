@@ -3,7 +3,6 @@ class Minuta < Formula
   homepage "https://minuta.tools"
   url "https://minuta.tools/downloads/minuta-cli-0.1.0.tar.gz"
   sha256 "663f75844a8fdb5678fff2f6787b6be7eb9779f41a8d8bdaa39fb6b47c938e59"
-  version "0.1.0"
 
   def install
     bin.install "minuta"
