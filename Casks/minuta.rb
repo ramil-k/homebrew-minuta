@@ -1,6 +1,6 @@
 cask "minuta" do
-  version "1.0.0"
-  sha256 "477aa5ccf89ac9bb9ba423b30118ccde25aed8c67d12d425f2e7144a89f35c27"
+  version "1.0.1"
+  sha256 "89286a80b3ad297b2bb91418a923b57c609d6beb691d07f1e32259b66c6041f7"
 
   url "https://minuta.tools/downloads/Minuta-#{version}.zip"
   name "Minuta"
