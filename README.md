@@ -17,16 +17,9 @@ brew install --cask minuta
 
 The CLI ships with man pages (`man minuta`) and bash/zsh/fish completions.
 
-## Gatekeeper note (app)
+## Gatekeeper
 
-The app is signed but not Apple-notarized. The cask clears the quarantine
-attribute on install so it launches normally. If macOS still blocks it, run:
-
-```sh
-xattr -dr com.apple.quarantine /Applications/Minuta.app
-```
-
-or right-click the app and choose **Open** once.
+The app and the CLI are signed with a Developer ID certificate and notarized by Apple (since app 1.0.3 / CLI 0.1.2), so they open without any quarantine workaround.
 
 ## Release flow (maintainer)
 
