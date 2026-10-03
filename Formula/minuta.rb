@@ -1,8 +1,8 @@
 class Minuta < Formula
   desc "Command-line companion for the Minuta time-tracking app"
   homepage "https://minuta.tools"
-  url "https://minuta.tools/downloads/minuta-cli-0.1.2.tar.gz"
-  sha256 "222f9b766fd8ebb8ae0a881196e06ad102b9c538762bea5b9d4f3a4a5f84f0eb"
+  url "https://minuta.tools/downloads/minuta-cli-0.1.3.tar.gz"
+  sha256 "5972d56ab98d1644b49c3e6d3d07a1dc6f804fb884fc96f3971f427430e27f3d"
 
   def install
     bin.install "minuta"
@@ -13,6 +13,6 @@ class Minuta < Formula
   end
 
   test do
-    assert_match "0.1.2", shell_output("#{bin}/minuta --version")
+    assert_match "0.1.3", shell_output("#{bin}/minuta --version")
   end
 end
